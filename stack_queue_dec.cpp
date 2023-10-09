@@ -1,15 +1,38 @@
 ﻿#include <iostream>
 #include "stack.h"
 #include "deq.h"
-
+#include "queue.h"
 
 int main()
 {
+    //
+    //
+    //test of queue
+    
+    queue l;
+    l.push(1);
+    l.push(2);
+    l.push(3);
+    l.push(4);
+    l.push(5);
+    l.push(6);
+    l.push(7);
 
+    l.pop();
+    l.pop();
+    l.pop();
+    l.pop();
+    
+
+    l.display();
+    l.~queue();
+   
+    
+    // 
     //
     //
     //test of deq
-
+    /*
     deq de;
     de.push_front(3);
     de.push_front(4);
@@ -20,7 +43,7 @@ int main()
     de.pop_front();
     de.push_back(145);
     de.print_all();
-
+    */
     //
     //
     //
