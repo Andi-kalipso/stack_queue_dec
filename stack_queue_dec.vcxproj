@@ -127,10 +127,12 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="deq.cpp" />
     <ClCompile Include="stack.cpp" />
     <ClCompile Include="stack_queue_dec.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="deq.h" />
     <ClInclude Include="stack.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

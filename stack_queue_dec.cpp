@@ -1,6 +1,6 @@
 ﻿#include <iostream>
 #include "stack.h"
-
+#include "deq.h"
 
 
 int main()
@@ -8,7 +8,24 @@ int main()
 
     //
     //
+    //test of deq
+
+    deq de;
+    de.push_front(3);
+    de.push_front(4);
+    de.push_front(7);
+    de.push_front(13);
+    de.push_front(5);
+    de.pop_back();
+    de.pop_front();
+    de.push_back(145);
+    de.print_all();
+
+    //
+    //
+    //
     //test of stack
+    /*
     stack s;
 
     s.empty();
@@ -24,7 +41,7 @@ int main()
     s.push(9);
     s.push(10);
     s.push(11);
-    s.push(144);
+    s.push(124);
     s.push(155);
 
     s.pop();
@@ -34,6 +51,7 @@ int main()
     s.print();
 
     s.empty();
+    */
     //
     //
     //
